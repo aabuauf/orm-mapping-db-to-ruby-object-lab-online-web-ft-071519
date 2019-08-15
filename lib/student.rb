@@ -66,6 +66,7 @@ class Student
     end.first
   end
   
+<<<<<<< HEAD
   def self.all_students_in_grade_9
     sql = <<-SQL
       SELECT *
@@ -136,4 +137,7 @@ class Student
     end     
   end
   
+=======
+
+>>>>>>> b28c757c0db96e5ef247448500f8cd3fcb9f7f48
 end
